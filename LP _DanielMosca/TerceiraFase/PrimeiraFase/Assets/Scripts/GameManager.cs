@@ -6,8 +6,8 @@ using TMPro;
 
 public class GameManager : MonoBehaviour
 {
-    private float speed = 5;
-    private float jumpForce = 10;
+  //  private float speed = 5;
+  //  private float jumpForce = 12;
     private bool carroExplodido = false;
     private Transform posicaoPersonagem;
     private Rigidbody2D rigidBodyPersonagem;
@@ -18,6 +18,35 @@ public class GameManager : MonoBehaviour
     public Transform posicaoLata;
     public TextMeshProUGUI textoDialogo;
     private int jogarLata;
+
+ [Header("Ground Check")]
+    public Transform groundCheck;               //objeto que serve como referência pra fazer checagem com o chão
+    public float footOffest = 0.4f;             //distância até o pé do personagem
+    public float groundDistance = 0.1f;         //distância com que faz a checagem com o chão
+    public LayerMask groundLayer;               //máscara de camada do chão
+    public bool onGround;                       //variável que identifica se jogador está no chão ou não
+
+    [Header("Movement")]
+    public float speed = 5;                     //velocidade de movimento do jogador
+    public float jumpForce = 12;                //força do pulo
+    public float horizontalJumpForce = 6;       //força do pulo na horizontal
+    public float horizontal;                    //armazena o input no eixo da horizontal
+    public bool jumpPressed;                    //identifica se o botão do pulo foi pressionado ou não
+    public int direction = 1;                   //identifica a direção do jogador (1 direita, -1 esquerda)
+    public bool canMove = true;                 //identifica se pode se movimentar ou não    
+
+    [Header("Ladder")]
+    public float climbSpeed = 3;                //velocidade de subida na escada
+    public LayerMask ladderMask;                //máscara de camada da escada
+    public float vertical;                      //armazena o input do eixo da vertical
+    public bool climbing;                       //identifica se jogador está escalando a escada
+    public float checkRadius = 0.3f;            //raio de checagem com a escada
+
+    private bool clearInputs;                   //identifica quando pode fazer limpeza nos inputs
+        
+  //  private Rigidbody2D rb;                     //armazena rigidbody do jogador
+  //  private Animator anim;                      //armazena animator do jogador
+   // private Collider2D col;                     //armazena collider do jogador
 
     void Start()
     {
@@ -57,8 +86,9 @@ public class GameManager : MonoBehaviour
         if(Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.W))
         {
             rigidBodyPersonagem.AddForce(new Vector2(0f, jumpForce), ForceMode2D.Impulse);
+            
             animPersonagem.SetBool("jump", true);
-            animPersonagem.SetBool("run", false);
+          //  animPersonagem.SetBool("run", false);
         }
         else
         {

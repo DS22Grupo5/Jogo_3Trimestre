@@ -26,7 +26,7 @@ public class GameManagerInternalShop : MonoBehaviour
 
         porta.SetActive(false);
 
-        AlterarTexto(1);
+       
     }
 
     void Update()
@@ -82,7 +82,7 @@ public class GameManagerInternalShop : MonoBehaviour
         }
         if(posicaoPersonagem.position.x <= -6.34 && dialogoExibido == false)
         {
-            AlterarTexto(2);
+           
             dialogoExibido = true;
         }
     }
