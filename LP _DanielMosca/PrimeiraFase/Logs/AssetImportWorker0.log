@@ -1,0 +1,253 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.8f1 (b30333d56e81) revision 11731763'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 16308 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2021.3.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/pedro/Desktop/Jogo_3Trimestre/LP _DanielMosca/PrimeiraFase
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+64121
+Successfully changed project path to: C:/Users/pedro/Desktop/Jogo_3Trimestre/LP _DanielMosca/PrimeiraFase
+C:/Users/pedro/Desktop/Jogo_3Trimestre/LP _DanielMosca/PrimeiraFase
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 88.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.8f1 (b30333d56e81)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.3.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/pedro/Desktop/Jogo_3Trimestre/LP _DanielMosca/PrimeiraFase/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 SUPER (ID=0x21c4)
+    Vendor:   NVIDIA
+    VRAM:     5991 MB
+    Driver:   31.0.15.1694
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2021.3.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2021.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2021.3.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56136
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2021.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007363 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 137.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.868 seconds
+Domain Reload Profiling:
+	ReloadAssembly (869ms)
+		BeginReloadAssembly (111ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (619ms)
+			LoadAssemblies (107ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (142ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (365ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (138ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (154ms)
+				ProcessInitializeOnLoadMethodAttributes (59ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008654 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\pedro\Desktop\Jogo_3Trimestre\LP _DanielMosca\PrimeiraFase\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\pedro\Desktop\Jogo_3Trimestre\LP _DanielMosca\PrimeiraFase\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.205 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1206ms)
+		BeginReloadAssembly (141ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (910ms)
+			LoadAssemblies (100ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (277ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (429ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (94ms)
+				ProcessInitializeOnLoadAttributes (282ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3277 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (55.7 KB). Loaded Objects now: 3737.
+Memory consumption went from 114.1 MB to 114.0 MB.
+Total: 9.368000 ms (FindLiveObjects: 1.522700 ms CreateObjectMapping: 0.478200 ms MarkObjects: 7.258700 ms  DeleteObjects: 0.106900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 21724.551930 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(c7c87b58058467e489b92c87756b8144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(c7c87b58058467e489b92c87756b8144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bbeeb9869541eb7aa7f84fca34494da') in 0.032415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.352834 seconds.
+  path: Assets/Sprites
+  artifactKey: Guid(2a0af20ca3ac56e40acb2f52a36bb94e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites using Guid(2a0af20ca3ac56e40acb2f52a36bb94e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4211e3571694278940d35f6665ef7264') in 0.005988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.046168 seconds.
+  path: Assets/Sprites/agua.png
+  artifactKey: Guid(40f29bd41f08cab4bb8d4e8cdb024659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/agua.png using Guid(40f29bd41f08cab4bb8d4e8cdb024659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20d2ca2aa2cdddaeea941ab99f072060') in 0.171769 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/spriteNitaner.png
+  artifactKey: Guid(4be2eac000ad3734295e030ed240a6c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/spriteNitaner.png using Guid(4be2eac000ad3734295e030ed240a6c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a274e0a1f5767eed0cc8913e02f32bb') in 0.030397 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Sprites/alcapaoFechado.png
+  artifactKey: Guid(586e2c6d58ed7564dbc14954d3df1c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/alcapaoFechado.png using Guid(586e2c6d58ed7564dbc14954d3df1c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93b8aaa5a33a2b6e40734ae5ba798814') in 0.016778 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/lataTomate.png
+  artifactKey: Guid(3ac1971285aa91a4484c20c694a039bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/lataTomate.png using Guid(3ac1971285aa91a4484c20c694a039bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fe22e1c6fafc2f3e3ea6cddfb0cdc34') in 0.015083 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/legumeEnlatado01.png
+  artifactKey: Guid(8f921059d38938e48bc8e7c46843915b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/legumeEnlatado01.png using Guid(8f921059d38938e48bc8e7c46843915b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '578a4124a760c6f1433e1086f68fc530') in 0.013750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/caixa.png
+  artifactKey: Guid(334fb4ebc53d1b240b5aec0ccbc94fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/caixa.png using Guid(334fb4ebc53d1b240b5aec0ccbc94fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbae82ea5a96cfbd889b51a9f0cbdbbd') in 0.015196 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/macaEstragada.png
+  artifactKey: Guid(bf8cbaed421ea6b45be7a7f74520bbc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/macaEstragada.png using Guid(bf8cbaed421ea6b45be7a7f74520bbc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8ae5b5640a6c57309627bea9a81183c') in 0.014460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/pocaoFrasco.png
+  artifactKey: Guid(cb9045217fe1870459f55a5007305073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/pocaoFrasco.png using Guid(cb9045217fe1870459f55a5007305073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7132e58214672a739f84bac4990e83a1') in 0.014500 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/barraMunicao.png
+  artifactKey: Guid(6ce9423b759a706409a534d937249371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/barraMunicao.png using Guid(6ce9423b759a706409a534d937249371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea902302dacfcce3855ba9458715a213') in 0.018024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/lojaConveniencia.png
+  artifactKey: Guid(1b4576e86bd175b4eb56cb29689eba86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/lojaConveniencia.png using Guid(1b4576e86bd175b4eb56cb29689eba86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9640c36372d71dea335f7af35368775') in 0.022819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/carro.png
+  artifactKey: Guid(60022a1b20dd95b4ea38403bbff30108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/carro.png using Guid(60022a1b20dd95b4ea38403bbff30108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30e7434112b69c8c4ca471b188c112b1') in 0.017647 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/poteDePicles.png
+  artifactKey: Guid(9b821b92844ab4b40bf2c3ea1b4f795f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/poteDePicles.png using Guid(9b821b92844ab4b40bf2c3ea1b4f795f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21d4fbfb46b075235a25a0c1ac4bd388') in 0.014476 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.883805 seconds.
+  path: Assets/Personagem/cientistaIdle.png
+  artifactKey: Guid(e07d8d54839964b42ad0f9297a6c68f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personagem/cientistaIdle.png using Guid(e07d8d54839964b42ad0f9297a6c68f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed6b2ea6176fb9c2f73f1b3282c8ad28') in 0.026431 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
