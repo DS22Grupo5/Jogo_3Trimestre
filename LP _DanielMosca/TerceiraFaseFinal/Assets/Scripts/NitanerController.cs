@@ -390,6 +390,13 @@ public class NitanerController : MonoBehaviour
            MudarDirecao = !MudarDirecao;
          }
 
+          if(collision.gameObject.name == "Ground" ){
+            Debug.Log("Nitaner ta no chao");
+            Debug.Log(collision.gameObject.name);
+           MudarDirecao = !MudarDirecao;
+           rb.isKinematic = true;
+         }
+
      
 
    
