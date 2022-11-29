@@ -384,11 +384,7 @@ public class NitanerController : MonoBehaviour
            MudarDirecao = !MudarDirecao;
          }
 
-         if(collision.gameObject.name == "escada" ){
-            Debug.Log("Nitaner bateu NA PAREDE");
-            Debug.Log(collision.gameObject.name);
-           MudarDirecao = !MudarDirecao;
-         }
+        
 
           if(collision.gameObject.name == "Ground" ){
             Debug.Log("Nitaner ta no chao");
@@ -396,6 +392,7 @@ public class NitanerController : MonoBehaviour
            MudarDirecao = !MudarDirecao;
            rb.isKinematic = true;
          }
+         
 
      
 
